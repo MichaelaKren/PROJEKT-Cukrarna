@@ -112,6 +112,7 @@ header {
 	background-image: url(images/cupcake.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .hero {
@@ -147,6 +148,11 @@ header {
 	background-color: #d2567d;
 }
 
+.uvitani img,
+.pristup img {
+	border-radius: 5px;
+}
+
 .nabidka {
 
 }
@@ -158,10 +164,24 @@ header {
 
 .seznam-produktu {
 	display: flex;
+	justify-content: space-between;
 }
 
 .produkt{
-	flex-shrink: 4;
+	flex-basis: 260px;
+	text-align: center;
+	background-color: white;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.produkt img {
+	width: 260px;
+	border-radius: 5px 5px 0 0;
+}
+
+.produkt-text {
+	padding: 20px;
 }
 
 .pristup {
