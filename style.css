@@ -26,6 +26,9 @@ html { box-sizing: border-box; }
 	#242424		(skoro) černá - na běžný text
 	#f0f0f0		světle šedé pozadí prostřední sekce
 	#303339		tmavé pozadí patičky
+
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
 */
 
 
@@ -33,3 +36,56 @@ body {
 	margin: 0;
 }
 
+.cukrarna {
+	max-width: 1100px;
+	margin: 0 auto;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+
+.header {
+	display: flex;
+	padding: 30px 0;
+}
+
+.logo {
+	width: 170px;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	color: white;
+	padding: 80px 0;
+}
+
+.uvitani {
+	display: flex;
+	background-color: white;
+}
+
+.nabidka {
+	display: flex;
+	background-color: #f0f0f0;
+}
+
+.pristup {
+	display: flex;
+	background-color:white;
+}
+
+.footer {
+	background-color: #303339;
+	
+}
