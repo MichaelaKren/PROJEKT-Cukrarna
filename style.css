@@ -36,18 +36,54 @@ body {
 	margin: 0;
 }
 
-.cukrarna {
+                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+section {
+	padding: 80px 0;
 	max-width: 1100px;
 	margin: 0 auto;
 	font-family: 'Lora', serif;
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 1.5;                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+	line-height: 1.5;      
+	color: #242424;
+	align-items: center;
 }
 
-.header {
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 1.25;
+	width: 60%;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.25;
+	color: #3e606b;
+	margin: 0;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.25;
+	color: #3e606b;
+	text-align: center;
+	margin: 0;
+}
+
+header {
 	display: flex;
 	padding: 30px 0;
+	width: 1100px;
+	margin: 0 auto;
+	justify-content: space-between;
 }
 
 .logo {
@@ -57,35 +93,88 @@ body {
 .menu {
 	display: flex;
 	list-style: none;
+	padding: 0;
 }
 
 .menu a {
+	padding: 10px 15px;
 	text-decoration: none;
 	color: black;
 }
 
-.hero {
+.menu a:hover {
+	background-color: #f195b2;
+	border-radius: 20px;
+	color: white;
+}
+
+.pozadi-obrazek {
 	background-image: url(images/cupcake.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero {
 	color: white;
 	padding: 80px 0;
 }
 
+.hero p {
+	width: 60%;
+	font-size: 24px;
+	font-style: italic;
+}
+
 .uvitani {
 	display: flex;
-	background-color: white;
+}
+
+.uvitani-popis {
+	margin-right: 30px;
+}
+
+.uvitani-popis a {
+	display: inline-block;
+	color: white;
+	background-color: #f195b2;
+	border-radius: 30px;
+	padding: 15px 40px;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.uvitani-popis a:hover {
+	background-color: #d2567d;
 }
 
 .nabidka {
-	display: flex;
+
+}
+
+.pozadi-barva{
 	background-color: #f0f0f0;
+	background-size: cover;
+}
+
+.seznam-produktu {
+	display: flex;
+}
+
+.produkt{
+	flex-shrink: 4;
 }
 
 .pristup {
 	display: flex;
-	background-color:white;
 }
 
-.footer {
+.pristup-popis {
+	margin-left: 30px;
+}
+
+footer {
 	background-color: #303339;
-	
+	text-align: center;
+	color: white;
+	padding: 30px 0;
 }
